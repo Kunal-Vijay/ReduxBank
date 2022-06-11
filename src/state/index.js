@@ -1,2 +1,3 @@
 // accessing all action creators directly from state
-export * as actionCreators from "./action-creators/index"
+import * as actionCreators from "./action-creators/index"
+export default actionCreators;
